@@ -4,7 +4,7 @@ export const Dog = ({ dog: { breeds, url } }) => {
   return (
     <div style={{ display: 'flex' }}>
       <img src={url} alt={name} width="320" />
-      <div>
+      <div style={{ marginLeft: '16px' }}>
         <p>Name: {name}</p>
         <p>Bred for: {bred_for}</p>
         <p>Temperament: {temperament}</p>

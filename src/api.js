@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.thedogapi.com/v1';
 axios.defaults.headers.common['x-api-key'] =
-  'live_NwvpvYwRpl5OnS2uqOCBBnLgtjvdaSmzFfLn1jguXPtgoDLCbGJxoeZhti9ZCSvm';
+  'live_S6qxUw1V3jBuAHhhYKLJvo6heHUo07hKN6FJE60cBQM5v7Zisk852abMbUsg6PeR';
 
 export const fetchBreeds = async () => {
   const response = await axios.get('/breeds');
